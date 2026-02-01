@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">myproject</string>
+    <string name="whatever">Whatever</string>
+    <string name="button">button</string>
+    <string name="itSucks">this_Guy_sucks</string>
+    <string name = "floatingButton">ADD Something</string>
+</resources>

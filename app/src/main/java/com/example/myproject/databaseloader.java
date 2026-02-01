@@ -39,6 +39,8 @@ public class databaseloader extends SQLiteOpenHelper {
     }
     // HELPER METHOD TO POPULATE THE DATABASE FOR NOW
 
+
+
     private void addProduct(SQLiteDatabase db, String name, double price, int qty, int imgId) {
         ContentValues values = new ContentValues();
         values.put(COLUMN_PRODUCT_NAME, name);

@@ -48,6 +48,13 @@ public class databaseloader extends SQLiteOpenHelper {
         values.put(COLUMN_PRODUCT_QUANTITY, qty);
         values.put(COLUMN_IMG, imgId);
         db.insert(TABLE_NAME, null, values);
+
     }
+    public void printfunt(){
+        System.out.println("Hello World");
+    }
+
 }
+
+
 

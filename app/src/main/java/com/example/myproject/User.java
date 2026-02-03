@@ -2,15 +2,32 @@ package com.example.myproject;
 
 public class User {
 
-    private String name ;
     private String emailAddress ;
-    private int age ;
 
-    public User(String name, String emailAddress ,int age){
-        this.name = name;
+    private String password ;
+
+    private String userId;
+
+
+    public User(String userId,String emailAddress,String password){
+        this.userId = userId;
         this.emailAddress = emailAddress;
-        this.age = age ;
+        this.password = password;
     }
+
+    public String getEmailAddress() {
+        return emailAddress;
+    }
+
+
+
+    public String getUserId() {
+        return userId;
+    }
+
+
+
+
 
 
 

@@ -49,5 +49,6 @@ public class databaseloader extends SQLiteOpenHelper {
         values.put(COLUMN_IMG, imgId);
         db.insert(TABLE_NAME, null, values);
     }
+
 }
 

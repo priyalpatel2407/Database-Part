@@ -1,15 +1,17 @@
 package com.example.myproject;
 
-public abstract class Product {
-    protected double price ;
-    protected int imgLocation;
+public class Product {
+    private double price ;
+    private int imgLocation;
 
-    protected final long SKU;
+    private final long SKU;
+    private final String description;
 
-    public Product(double price, int imgLocation , long Sku){
+    public Product(double price, int imgLocation , long Sku,String description){
         this.price = price;
         this.imgLocation = imgLocation;
         this.SKU = Sku;
+        this.description = description;
     }
 
     public long getSKU()  {
@@ -24,7 +26,9 @@ public abstract class Product {
         return this.imgLocation;
     }
 
-
+    public  String getDescription() {
+        return  this.description;
+    }
 
 
 
